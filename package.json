@@ -1,0 +1,55 @@
+{
+  "name": "three-shrdlu",
+  "version": "0.125.2",
+  "license": "CC-BY-NC-4.0",
+  "author": "Loïc TRUCHOT <loic.truchot.pro@gmail.com>",
+  "description": "A pre installed environnement to work with three.js with webpack & typescript",
+  "engines": {
+    "node": "^14.0.0",
+    "npm": "^6.0.0"
+  },
+  "main": "./src/app.ts",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "playground",
+    "basic",
+    "webpack",
+    "typescript",
+    "seed"
+  ],
+  "dependencies": {
+    "@effect-ts/core": "0.19.0",
+    "tailwindcss": "2.0.3",
+    "three": "0.125.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.16",
+    "@babel/preset-env": "7.12.16",
+    "@types/node": "14.14.28",
+    "@typescript-eslint/eslint-plugin": "4.15.1",
+    "@typescript-eslint/parser": "4.15.1",
+    "babel-loader": "8.2.2",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "7.0.0",
+    "css-loader": "5.0.2",
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.22.1",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "5.1.0",
+    "sass": "1.32.7",
+    "sass-loader": "11.0.1",
+    "style-loader": "2.0.0",
+    "ts-loader": "8.0.17",
+    "typescript": "4.1.5",
+    "webpack": "5.22.0",
+    "webpack-cli": "4.5.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}
